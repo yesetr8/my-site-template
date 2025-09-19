@@ -96,15 +96,15 @@ export function About() {
   const { getData, saveData, isEditMode, saveToFile } = useInlineEditor()
   // 기본 데이터
   const defaultInfo = {
-    title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
+    title: "교육 과정",
+    subtitle: "Education",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
-    storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    experienceCards: [{"icon":"briefcase","title":"어린이집","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"워릭 프랭클린 영어 유치원","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"lightbulb","title":"아뜰리에 미술학원","period":2024,"description":"설명을 입력하세요"},{"icon":"rocket","title":"청담어학원 버디","period":"2025.08.","description":"2025. 01. ㅇㅇ 입학"},{"icon":"calendar","title":"와이즈만 수학학원","period":"2024","description":"설명을 입력하세요"},{"icon":"shield","title":"바이올린 학원","period":2024,"description":"설명을 입력하세요"}],
+    skills: [{"icon":"code","title":"영어 회화","description":"학원에서 써준 수준"},{"icon":"database","title":"영어 작문","description":"학원에서 써준 수준"},{"icon":"palette","title":"캐릭터 그리기","description":"학원 전시회 출품작 다수"}],
+    storyTitle: "하고 싶은 이야기",
+    story: ["첫번째 하고 싶은 이야기\n영어로도 쓰고","미국 친구들에게 ?","더 많이 추가할 수도 있음"],
+    storyImage: "/uploads/about-image-1758294388443.png",
+    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행","🏊 수영","🎸 바이올린","🚴 자전거","🏕️ 캠핑","🎮 게임"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

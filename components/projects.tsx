@@ -17,13 +17,8 @@ export function Projects() {
     subtitle: "프로젝트",
     initialDisplay: 6,
     loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"","video":"","color":"","opacity":0.1},
+    projects: [{"image":"","video":"/uploads/project-1758294701197-1758294703492.mp4","title":"또또 독서","description":"AI 에이젠스"},{"image":"","video":"/uploads/project-1758294740632-1758294741795.mp4","title":"또또 캠핑","description":"Camping BBQ"},{"image":"","video":"/uploads/project-1758294792279-1758294792366.mp4","title":"또또 연주","description":"바이올린 연주"}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
