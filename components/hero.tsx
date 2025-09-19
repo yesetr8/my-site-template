@@ -40,7 +40,7 @@ export function Hero() {
     name: "Hi, I am Rena Yang",
     title: "제 소개를 하는 홈페이지를 구경하세요",
     description: "인트로듀스 영어로?",
-    profileImage: "",
+    profileImage: "/uploads/hero-profile-1758295625486.png",
     background: {"image":"","video":"","color":"","opacity":0.1},
     projectButton: "포트폴리오"
   }
